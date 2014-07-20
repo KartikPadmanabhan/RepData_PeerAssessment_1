@@ -6,7 +6,7 @@ library(lattice)
 
 ## Loading and preprocessing the data
 Load csv data **activity.csv** and convert dates to **R Date class**  
-
+ 
 ```r
 actdata <- read.csv("activity.csv")
 actdata$date <- as.Date(actdata$date, "%Y-%m-%d")
